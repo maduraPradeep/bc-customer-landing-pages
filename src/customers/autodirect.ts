@@ -26,5 +26,5 @@ export const autodirect: CustomerConfig = {
     { title: 'Go live', body: 'Embed on your site and messaging channels.' },
   ],
   contactEmail: 'hello@botcircuits.com',
-  widgetAccessKey: '<ACCESS_KEY>',
+  widgetAccessKey: 'key_eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjV1NXBpNnJjdnpfbGl2ZSIsInJlZiI6Ii9ib3RjaXJjdWl0cy1iYWNrZW5kL3Byb2QvYWNjZXNzLWtleXMvNXU1cGk2cmN2el9saXZlL3dlYndpZGdldC1saXZlIiwia2V5IjoiMDliNDViMDAtM2I1YS00MjdhLWJjMTYtY2ZjZTFiMzYwYjFlIiwic2NvcGUiOiJydW50aW1lIiwiaWF0IjoxNzkyNDgzMzgwfQ.LSt8TO1cldrWat4hYNCY_swggW49ji0IUejfPBhjk3Q',
 }

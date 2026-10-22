@@ -3,7 +3,7 @@ import { defineConfig, type Plugin } from 'vite'
 
 // Static customer snapshots live in public/<slug>/index.html. Firebase serves them directly;
 // this mirrors that for `vite dev` / `vite preview`, where /<slug> would otherwise hit the SPA.
-const staticPages = ['suren-automart']
+const staticPages = ['suren-automart', 'sterling']
 const serveStaticPages = (): Plugin => {
   const middleware = (req: { url?: string }, _res: unknown, next: () => void) => {
     const path = (req.url ?? '').split('?')[0].replace(/\/$/, '')

@@ -27,3 +27,5 @@ firebase deploy --only hosting
 `public/suren-automart/index.html` is a saved copy of https://surenautomart.lk/ (noindex added, canonical/og tags removed). CSS, JS and images are hotlinked from the original site and all links go to the live site, so it stays in sync only as far as those assets do. Re-snapshot by re-downloading the page and re-applying the same edits. New static slugs must also be added to `staticPages` in `vite.config.ts` for dev/preview.
 
 The Suren Automart snapshot has the BotCircuits widget as two inline `<script>` tags before `</body>` (uses the same access key as `autodirect.ts`); keep them when re-snapshotting.
+
+`public/sterling/index.html` is a hand-built page in the style of https://www.sterling.lk (original markup and artwork, no hotlinked assets; text and prices adapted from the public site, brand logos replaced with plain names). It carries the same two inline widget `<script>` tags as the Suren Automart page.
